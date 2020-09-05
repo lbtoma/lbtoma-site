@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import {readFileSync} from "fs";
 import {cwd} from "process";
 
 
@@ -15,7 +15,7 @@ export function getImageUriTransformer(path: string): (uri: string) => string {
 export const readMarkdown = (path: string): string => {
   const completePath = `${cwd()}/${path}`;
   try {
-    return fs.readFileSync(completePath, "utf-8").toString();
+    return readFileSync(completePath, "utf-8").toString();
   } catch(err) {
     console.error("Unable to get: ", completePath);
     console.error(err);

@@ -2,7 +2,7 @@ import React, {FunctionComponent} from "react";
 import {GetStaticPaths, GetStaticProps} from "next"
 import Layout, {ce229TeasureHuntIds} from "../../../components/Layout";
 import ReactMarkdown from "react-markdown/with-html";
-import {getImageUriTransformer, readMarkdown} from "../../helpers";
+import {getImageUriTransformer, readMarkdown} from "../../../utils/helpers";
 
 
 export interface ListexProps {
