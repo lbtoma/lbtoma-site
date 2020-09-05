@@ -1,0 +1,29 @@
+{
+  "name": "lbtoma-site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "latest",
+    "primeicons": "^4.0.0",
+    "primereact": "^5.0.0-rc.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-transition-group": "^4.4.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "typescript": "4.0"
+  },
+  "license": "UNLICENCED",
+  "private": true
+}
