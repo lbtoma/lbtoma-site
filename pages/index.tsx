@@ -10,6 +10,9 @@ const IndexPage = () => (
       e "CE-237: Tópicos avançados de teste de software".
     </p>
 
+    <img className="profile-pic" src="https://avatars3.githubusercontent.com/u/22775978" />
+
+    <p className="catchphrase">"Intelligence is the ability to avoid doing work, yet getting the work done." - Linus Torvalds</p>
 
   </Layout>
 )

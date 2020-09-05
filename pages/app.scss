@@ -20,5 +20,26 @@ body {
 }
 
 .main-content {
-  padding: 20px;  
+  padding: 20px;
+
+  img {
+    max-width: 90%;
+  }
+
+  pre {
+    overflow-x: scroll;
+  }
+}
+
+.profile-pic {
+  max-height: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: solid 10px gainsboro;
+  border-radius: 5px;
+}
+
+.catchphrase {
+  font-style: italic;
 }

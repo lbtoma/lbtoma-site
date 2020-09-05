@@ -1,4 +1,4 @@
-import React, {FunctionComponent} from "react";
+import React, {FunctionComponent, useState, useEffect} from "react";
 import {Menubar} from "primereact/menubar";
 import {MenuItem} from "primereact/components/menuitem/MenuItem";
 
@@ -6,14 +6,20 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-const FullScreenButton: FunctionComponent<{}> = () =>
-  <a target="_parent" href="/"><i className="pi pi-window-maximize" /></a>;
+const FullScreenButton: FunctionComponent<{}> = () => {
+  const [href, setHref] = useState<string>("/");
+
+  useEffect(() => {
+    setHref(window.location.pathname);
+  }, []);
+
+  return <a target="_parent" href={href}><i className="pi pi-window-maximize" /></a>;
+}
 
 
 export const ce229ListexIds: string[] = [
   "0",
   "1",
-  "2",
   "2a",
   "2b",
   "2c",
@@ -75,7 +81,7 @@ const Layout: FunctionComponent<LayoutProps> = (props) => {
           ]}
         ]},
       ]}
-      end={FullScreenButton}
+      end={<FullScreenButton /> as any}
     />
     <div className="main-content">
       {children}
