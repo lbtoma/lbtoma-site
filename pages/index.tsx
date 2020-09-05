@@ -14,6 +14,14 @@ const IndexPage = () => (
 
     <p className="catchphrase">"Intelligence is the ability to avoid doing work, yet getting the work done." - Linus Torvalds</p>
 
+    <a
+      href="https://github.com/lbtoma/lbtoma-site"
+      className="repo-link"
+      target="_blank"  
+    >
+      <i className="pi pi-github" /> Repositório desta página
+    </a>
+
   </Layout>
 )
 
