@@ -10,6 +10,11 @@ const IndexPage = () => (
       e "CE-237: Tópicos avançados de teste de software".
     </p>
 
+    <p>
+      Para acessar as listExes, artefatos e relatórios das disciplinas CE-229 e CE-237,
+      clique no botão disciplinas na barra de navegação.
+    </p>
+
     <img className="profile-pic" src="https://avatars3.githubusercontent.com/u/22775978" />
 
     <p className="catchphrase">"Intelligence is the ability to avoid doing work, yet getting the work done." - Linus Torvalds</p>

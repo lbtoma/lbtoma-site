@@ -80,6 +80,10 @@ const Layout: FunctionComponent<LayoutProps> = (props) => {
             // {label: "Relatório final", icon: "pi pi-file-pdf"}
           ]}
         ]},
+        {label: "Projetos", icon: "pi pi-star-o", items: [
+          {label: "STEPES-BD", icon: "pi pi-circle-off", url: "/stepes-bd"},
+          {label: "STEPES-TR", icon: "pi pi-circle-on", url: "/stepes-tr"},
+        ]}
       ]}
       end={<FullScreenButton /> as any}
     />
