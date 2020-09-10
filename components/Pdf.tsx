@@ -6,8 +6,11 @@ export interface PdfProps {
 }
 
 const Pdf: FunctionComponent<PdfProps> = (props) => {
-  return <object className="curriculum-box" data={props.path} type="application/pdf">
-    <embed src={props.path} type="application/pdf"/>
+  const path = props.path;
+
+  return <object className="curriculum-box" data={path} type="application/pdf">
+    <h1><a target="" href={path} download>Baixar curriculum</a></h1>
+    <embed src={path} type="application/pdf"/>
   </object>
 }
 
