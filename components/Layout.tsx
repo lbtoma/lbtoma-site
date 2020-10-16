@@ -75,6 +75,7 @@ const Layout: FunctionComponent<LayoutProps> = (props) => {
           ]},
           {label: "CE-237: Tópicos avançados de teste de software", items: [
             {label: "ListExes", icon: "pi pi-file-o", items: ce237Listexes},
+            {label: "Primeira prova", icon: "pi pi-file-pdf", url: "/ce-237/p1"}
             // {label: "Caças ao tesouro", icon: "pi pi-star-o"},
             // {label: "Artefatos", icon: "pi pi-file-pdf"},
             // {label: "Relatório final", icon: "pi pi-file-pdf"}
