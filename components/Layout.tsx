@@ -37,7 +37,8 @@ export const ce229TeasureHuntIds: string[] = [
 
 export const ce237ListextIds: string[] = [
   "0",
-  "1"
+  "1",
+  "3"
 ];
 
 // export const ce237TeasureHuntIds: string[] = [
