@@ -39,7 +39,8 @@ export const ce237ListextIds: string[] = [
   "0",
   "1",
   "2",
-  "3"
+  "3",
+  "4"
 ];
 
 // export const ce237TeasureHuntIds: string[] = [
